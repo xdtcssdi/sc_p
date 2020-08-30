@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="questionType">
+        <item>单选</item>
+        <item>判断</item>
+        <item>多选</item>
+    </string-array>
+    
+</resources>

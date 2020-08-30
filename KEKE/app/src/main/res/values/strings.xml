@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">刻课</string>
+    <string name="keke">KEKE</string>
+    <string name="accessibility_service_description">开启服务以启用签到</string>
+    <string name="stop_app">禁止App</string>
+    <string name="start_sign">开始签到</string>
+    <string name="openServiceZA">请先开启 " keke " 的辅助功能</string>
+
+    <string name="set_app_white_list">设置白名单</string>
+
+    <string name="app_login_name">login_demo</string>
+    <string name="account">请输入登录的账号</string>
+    <string name="password">请输入登录密码</string>
+    <string name="check_password">记住密码</string>
+    <string name="check_login">自动登录</string>
+    <string name="login">登录</string>
+    <string name="loading">正在加载数据</string>
+    <string name="submitWhiteList">提交白名单列表</string>
+    <string name="student_connection">学生连接</string>
+    <string name="send_QuestionRequest">发送问题</string>
+    <string name="questionDetail">问题描述</string>
+    <string name="hintQuestionDetail">请输入问题描述</string>
+    <string name="limitHint">限时几秒？(空为不限时)</string>
+    <string name="limitTime">限时：</string>
+    <string name="newQuestionRequest">新建问题</string>
+    <string name="Username">用户名</string>
+    <string name="Password">密码</string>
+    <string name="forgot_your_password">忘记密码 ?</string>
+    <string name="go">登陆</string>
+    <string name="repeat_password">确认密码</string>
+    <string name="next">注册</string>
+    <string name="register">注册</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.xuexiang.xui.widget.textview.supertextview.SuperTextView
+                android:layout_margin="10dp"
+                app:sDividerLineType="both"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/username"
+                app:sLeftIconRes="@drawable/icon_head_default"
+                app:sLeftTextString="用户名"
+                app:sRightIconRes="@drawable/icon_arrow_right_red" />
+
+            <com.xuexiang.xui.widget.textview.supertextview.SuperTextView
+                android:id="@+id/nickname"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sLeftTextString="昵称"
+                app:sRightIconRes="@drawable/icon_arrow_right_red" />
+
+            <com.xuexiang.xui.widget.textview.supertextview.SuperTextView
+                android:id="@+id/pwd"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:sLeftTextString="修改密码"
+                app:sRightIconRes="@drawable/icon_arrow_right_red" />
+
+
+            <com.xuexiang.xui.widget.textview.supertextview.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                app:sLeftTextString="电话"
+                android:id="@+id/phone"
+                app:sRightIconRes="@drawable/icon_arrow_right_red"
+                android:layout_height="50dp" />
+
+            <com.xuexiang.xui.widget.textview.supertextview.SuperTextView
+                android:id="@+id/star"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                app:sLeftTextString="我的收藏"
+                app:sRightIconRes="@drawable/icon_arrow_right_red" />
+            <com.xuexiang.xui.widget.textview.supertextview.SuperTextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                app:sDividerLineType="both"
+                app:sLeftTextString="注销"
+                app:sRightIconRes="@drawable/icon_arrow_right_red" />
+
+            <com.xuexiang.xui.widget.textview.supertextview.SuperTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                app:sDividerLineType="both"
+                app:sLeftTextString="关于应用"
+                app:sRightIconRes="@drawable/icon_arrow_right_red" />
+
+        </LinearLayout>
+
+</LinearLayout>

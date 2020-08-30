@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--注意此处引用的包位置正确-->
+    <Button
+        android:id="@+id/attention"
+        android:text="关注"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/collect"
+        android:text="收藏"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/logout"
+        android:text="注销"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
